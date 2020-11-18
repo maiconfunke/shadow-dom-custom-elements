@@ -1,0 +1,17 @@
+{
+    "name": "web-components",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start:popup-info": "npx http-server popup-info",
+        "start:yazuo-tabs": "npx http-server yazuo-tabs"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "http-server": "^0.12.3"
+    }
+}

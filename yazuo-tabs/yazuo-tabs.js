@@ -2,11 +2,6 @@ class YazuoTabs extends HTMLElement {
     constructor() {
         super();
         let shadow = this.attachShadow({ mode: 'open' });
-        var css = document.createElement('link');
-        css.rel = 'stylesheet';
-        css.type = 'text/css';
-        css.href = 'yazuo-tabs.css';
-
         let style = document.createElement('style');
         style.textContent = `
         .tabs {
